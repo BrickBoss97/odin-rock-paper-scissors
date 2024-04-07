@@ -47,7 +47,8 @@ function checkWinner(choiceP, choiceC) {
 
 function playGame() {
     for (let round = 1; round <= 5; round++) {
-        playRound()
+        const winner = playRound()
+        console.log(winner)
     }
     logWins()
 }
