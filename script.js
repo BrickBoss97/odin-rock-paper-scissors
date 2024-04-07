@@ -61,3 +61,5 @@ function logWins() {
     console.log("Computer Wins:", computerWins);
     console.log("Ties:", ties);
 }
+
+playGame()
