@@ -5,9 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors!</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
-    
+    <div class="header">
+        <div class="title">Rock, Paper, Scissors!</div>
+    </div>
+    <div class="content">
+        <div class="scores">
+            <div id="player">Player Score: 0</div>
+            <div id="computer">Computer Score: 0</div>
+        </div>
+        <div class="game">
+            <div class="gameContent">Make your selection:</div>
+            <div class="choices">
+                <button class="choice button" id="rock">Rock</button>
+                <button class="choice button" id="paper">Paper</button>
+                <button class="choice button" id="scissors">Scissors</button>
+            </div>
+            <div class="options">
+                <button class="button" id="resetBtn">Reset Game</button>
+            </div>
+        </div>
+        <div class="messages">
+            <p class="message" id="round"></p>
+            <p class="message" id="game"></p>
+            <p class="message" id="reset"></p>
+        </div>
+    </div>
+    <div class="footer">© GPR Design</div>
 </body>
+<script src="script.js"></script>
 </html>
